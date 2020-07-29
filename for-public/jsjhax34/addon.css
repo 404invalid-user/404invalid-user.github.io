@@ -1,0 +1,33 @@
+/* a bit of css for someone */
+.bottom {
+	bottom: 10px;
+	position: fixed; 
+}
+.center_all {
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.top_space {
+margin-top: 40px;
+}
+.txt_look_nice{
+	margin-left: 10.69px;
+	margin-right: 69.69px;
+}
+.blue_look_nice{
+	margin-left: 10.69px;
+	margin-right: 10.69px;
+}
+.shrek {
+padding: 5px;
+background-color: green;
+}
+
+.byinvalid {
+	color: green;
+}
+.byinvalid:hover{
+ 	color: red; 
+ 	text-decoration:none
+}
