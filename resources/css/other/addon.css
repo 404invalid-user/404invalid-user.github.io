@@ -1,0 +1,42 @@
+/* a bit of css for someone made by 404invalid-user*/
+.bottom {
+	margin-top: 100px;
+}
+.hr_work {
+	margin-left: calc(50% - 50vw);
+  	width: 100vw;
+}
+.img {
+	max-width: 500px;
+	max-height: 400px;
+}
+.top_space {
+margin-top: 40px;
+}
+.txt_look_nice{
+	margin-left: 10.69px;
+	margin-right: 69.69px;
+}
+.blue_look_nice{
+	margin-left: 10.69px;
+	margin-right: 10.69px;
+}
+.shrek {
+padding: 5px;
+background-color: green;
+}
+.shrek_button {
+	padding: 5px;
+	border: dashed;
+	border-width: 0.5px;
+	color:  #1FFF00 ;
+	background-color: gray;
+}
+
+.byinvalid {
+	color: green;
+}
+.byinvalid:hover{
+ 	color: red; 
+ 	text-decoration:none
+}
