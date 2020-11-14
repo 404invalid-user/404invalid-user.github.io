@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(104, 102, 102);
+    background-color: rgb(240, 240, 240);
 }
 
 #logo {
@@ -22,7 +22,7 @@ body {
 }
 
 .text {
-    color: ghostwhite;
+    color: rgb(0, 0, 0);
     font-family: courier, arial, helvetica;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .aboutText {
-    background-color: rgba(128, 128, 128, 0.39);
+    background-color: rgba(156, 153, 153, 0.39);
     display: inline-block;
     margin-right: 25%;
     margin-left: 25%;
@@ -46,7 +46,7 @@ body {
 }
 
 .link {
-    color: lightblue;
+    color: rgb(0, 191, 255);
     text-decoration: none;
 }
 
