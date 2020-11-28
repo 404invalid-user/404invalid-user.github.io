@@ -37,12 +37,11 @@ body {
 
 .aboutText {
     background-color: rgba(156, 153, 153, 0.39);
-    display: inline-block;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
     padding: 4px;
     border-radius: 4px;
-    position: relative;
 }
 
 .link {
@@ -61,6 +60,11 @@ body {
     border-radius: 25px;
     transition-duration: 0.4s;
     cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: black
 }
 
 .button:hover {
@@ -191,4 +195,70 @@ body {
     -webkit-animation: rainbow 5s infinite;
     -ms-animation: rainbow 5s infinite;
     animation: rainbow 5s infinite;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: #ebe9e8;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: #ebe9e8;
+    display: inline-block;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: white;
+}
+
+.bit-o-space {
+    margin-bottom: 50px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 120%;
+}
+
+.nav {
+    color: #0068ff;
+    font-size: 120%;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: #004fc0;
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+    color: #929292;
 }
