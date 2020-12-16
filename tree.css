@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+body {
+    font-family: 'Berkshire Swash', cursive;
+}
+
 .headline {
     font-size: 100%;
     margin-bottom: 0.5em;
@@ -49,4 +53,215 @@
     background-image: linear-gradient(to bottom right, rgba(0, 255, 234, 0.473), rgba(255, 0, 0, 0.521));
     padding: 4px;
     margin-top: 20px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#logo {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width:729px) {
+    img#logoimg {
+        display: none;
+    }
+}
+
+.headding {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-family: courier, arial, helvetica;
+}
+
+.about {
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.aboutText {
+    background-color: rgba(156, 153, 153, 0.39);
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.link {
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(140, 0, 255);
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 130%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: black
+}
+
+.button:hover {
+    background-color: rgb(209, 109, 255);
+}
+
+.button:active {
+    color: rgb(43, 255, 0);
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: #42FF00;
+}
+
+@webkit-keyframes rainbow {
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    25% {
+        color: rgb(255, 81, 0);
+    }
+    50% {
+        color: rgb(60, 255, 0);
+    }
+    75% {
+        color: rgb(0, 255, 64);
+    }
+    100% {
+        color: rgb(76, 236, 1);
+    }
+}
+
+@ms-keyframes rainbow {
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    25% {
+        color: rgb(255, 81, 0);
+    }
+    50% {
+        color: rgb(60, 255, 0);
+    }
+    75% {
+        color: rgb(0, 255, 64);
+    }
+    100% {
+        color: rgb(76, 236, 1);
+    }
+}
+
+@keyframes rainbow {
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    25% {
+        color: rgb(255, 81, 0);
+    }
+    50% {
+        color: rgb(60, 255, 0);
+    }
+    75% {
+        color: rgb(0, 255, 64);
+    }
+    100% {
+        color: rgb(76, 236, 1);
+    }
+}
+
+.rainbowColourText {
+    -webkit-animation: rainbow 5s infinite;
+    -ms-animation: rainbow 5s infinite;
+    animation: rainbow 5s infinite;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: #ebe9e8;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: #ebe9e8;
+    display: inline-block;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: white;
+}
+
+.bit-o-space {
+    margin-bottom: 50px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 120%;
+}
+
+.nav {
+    color: #0068ff;
+    font-size: 120%;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: #004fc0;
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+    color: #929292;
 }
