@@ -249,14 +249,16 @@ body {
     font-size: 120%;
     text-decoration: none;
     transition: 0.4s;
-    border-radius: 25px;
+    border-radius: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
+    padding: 8px;
 }
 
 .nav:hover {
     color: #004fc0;
     text-decoration: underline;
+    background-color: rgba(121, 118, 118, 0.651);
 }
 
 .active {
