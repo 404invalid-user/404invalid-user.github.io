@@ -2,19 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta content="Invalid user" property="og:title">
-    <meta content="404invalid-user’s website" property="og:description">
-    <meta content="http://invaliduser.uk.to/" property="og:url">
-    <meta content="https://github.com/404invalid-user.png" property="og:image">
-    <meta content="#00D1FF" data-react-helmet="true" name="theme-color">
+    <title>Merry Christmas :: invaliduser.uk.to</title>
 
-    <link rel="shortcut icon" href="https://github.com/404invalid-user.png">
+    <!-- meta data -->
+    <meta name="author" content="404invalid-user" />
+    <meta name="keywords" content="html, web, development, webdevelopment, invaliduser, 404invalid-user" />
+    <meta property="og:title" content="Invalid user" />
+    <meta property="og:description" content="404invalid-user’s website" />
+    <meta property="og:url" content="https://invaliduser.uk.to/" />
+    <meta property="og:image" content="https://github.com/404invalid-user.png" />
+    <meta content="#00D1FF" data-react-helmet="true" name="theme-color">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <script defer src="https://invaliduser.uk.to/assets/cool.js"></script>
+    <!-- link -->
+    <link rel="shortcut icon" href="https://github.com/404invalid-user.png">
     <link rel="stylesheet" href="./tree.css">
-    <title>Merry Christmas :: invaliduser.uk.to</title>
+
+    <!-- script -->
+    <script defer src="https://invaliduser.uk.to/assets/cool.js"></script>
+
+
 </head>
 
 <body>
@@ -29,7 +36,7 @@
                 <li class="li"><a class="nav active" href="http://invaliduser.uk.to">Home</a></li>
                 <li class="li"><a class="nav" href="http://invaliduser.uk.to/projects.html">Projects</a></li>
                 <li class="li"><a class="nav" href="https://invaliduser.uk.to/pcspecs.html">PC specs</a></li>
-
+                <li class="li"><a class="nav" href="http://coolwebsite.rf.gd/">coolwebsite</a></li>
             </ul>
         </div>
 
@@ -38,9 +45,6 @@
     <div class="treedivo">
         <div id="treediv">
             <h1 class="headline">Merry Christmas</h1>
-
-
-
             <div class="fir">
                 <div class="fir__item"></div>
                 <div class="fir__item"></div>
@@ -60,7 +64,7 @@
         <p style="margin-top: 35px;font-size: 50%;text-align: center;">merry Christmas and a happy new year!</p>
     </div>
     <center>
-        <div>
+        <div id="aboutdiv">
             <h3 class="button text" onclick="about()">about</h3>
             <div id="aboutText" class="aboutText" style="display:none;">
                 <p class="text">Hi im <a class="rainbowColourText">404invalid-user</a>
@@ -70,7 +74,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="contactdiv">
             <h3 class="button text" onclick="contact()">Contact</h3>
             <div id="contactText" style="display:none;">
                 <p class="text"><img style="vertical-align: middle;margin-bottom: 2px;" src="./assets/GitHub-Mark-Light-32px.png" width="18" height="18" /> Github: <a class="link" href="https://github.com/404invalid-user/" target="_blank">404invalid-user</a></p>
@@ -84,11 +88,8 @@
         </div>
     </center>
 </body>
+
 <script>
-    /**
-     * Our JavaScript function, which calculates the days, hours,
-     * minutes and seconds left until Christmas day.
-     */
     function calculateChristmasCountdown() {
 
         //Get today's date.
