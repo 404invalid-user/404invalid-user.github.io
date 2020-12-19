@@ -48,8 +48,6 @@ body {
 
 .treedivo {
     font-size: 200%;
-    margin-right: 100px;
-    margin-left: 100px;
     background-image: linear-gradient(to bottom right, rgba(0, 255, 234, 0.473), rgba(255, 0, 0, 0.521));
     padding: 4px;
     margin-top: 20px;
@@ -264,4 +262,12 @@ body {
 .active {
     text-decoration: underline;
     color: #929292;
+}
+
+#countdown a {
+    color: red;
+}
+
+#countdown p {
+    color: green;
 }
