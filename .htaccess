@@ -1,1 +1,2 @@
 ErrorDocument 404 /404.html
+Redirect 301 /working https://www.youtube.com/watch?v=QtBDL8EiNZo&t
